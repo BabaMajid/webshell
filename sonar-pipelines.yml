@@ -26,8 +26,8 @@ steps:
     SonarQube: 'sonarqube'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'test'
-    cliProjectName: 'test'
+    cliProjectKey: 'Test'
+    cliProjectName: 'Test'
     cliSources: '.'
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
